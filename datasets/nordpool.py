@@ -4,7 +4,7 @@ import os
 import numpy as np
 import pandas as pd
 from typing import Tuple
-from datasets.setting import DATASETS_PATH
+from DEPTS.datasets.setting import DATASETS_PATH
 
 
 @dataclass()
