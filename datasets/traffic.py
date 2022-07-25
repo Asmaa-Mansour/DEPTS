@@ -11,7 +11,7 @@ from typing import Tuple
 import numpy as np
 from tqdm import tqdm
 
-from datasets.setting import DATASETS_PATH
+from DEPTS.datasets.setting import DATASETS_PATH
 
 
 DATASET_URL = 'https://archive.ics.uci.edu/ml/machine-learning-databases/00204/PEMS-SF.zip'
