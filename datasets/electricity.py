@@ -3,7 +3,7 @@ from dataclasses import dataclass
 import os
 import numpy as np
 from typing import Tuple
-from datasets.setting import DATASETS_PATH
+from DEPTS.datasets.setting import DATASETS_PATH
 
 DATASET_DIR = os.path.join(DATASETS_PATH, 'electricity')
 CACHE_FILE_PATH = os.path.join(DATASET_DIR, 'electricity.npz')
