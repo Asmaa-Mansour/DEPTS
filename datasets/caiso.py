@@ -4,7 +4,7 @@ import os
 import numpy as np
 import pandas as pd
 from typing import Tuple
-from datasets.setting import DATASETS_PATH
+from DEPTS.datasets.setting import DATASETS_PATH
 
 
 DATA_DIR = os.path.join(DATASETS_PATH, 'caiso', 'caiso_20130101_20210630.csv')
