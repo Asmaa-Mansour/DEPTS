@@ -10,7 +10,7 @@ from pathlib import Path
 import datetime
 from DEPTS.utils import TimeseriesSampler, to_tensor, warm_PM_parameters_perK
 from DEPTS.utils import default_device, mape_loss, mase_loss, smape_2_loss
-from models import PeriodicityModule, depts_expansion_general
+from DEPTS.models import PeriodicityModule, depts_expansion_general
 from datasets.electricity import ElectricityDataset, ElectricityMeta
 from datasets.traffic import TrafficDataset, TrafficMeta
 from datasets.caiso import CaisoDataset, CaisoMeta
