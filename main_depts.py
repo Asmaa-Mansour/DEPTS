@@ -50,6 +50,7 @@ parser.add_argument('--output', type=str, default='') # output file dirs
 parser.add_argument('--J', type=int, default=8) # J valid periods: 4, 8, 16, 32
 parser.add_argument('--maxK', type=int, default=128) # in top-K candidate periods to select J valid periods
 parser.add_argument('--period_layers', type=int, default=1) # num of NN layers in periodic blocks
+parser.add_argument('-f')
 args = parser.parse_args()
 
 
