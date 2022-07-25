@@ -2,7 +2,7 @@ import torch
 import numpy as np
 import pandas as pd
 import torch.nn as nn
-from utils import to_tensor
+from DEPTS.utils import to_tensor
 
 # local block, adapted with n-beats basic block
 class LocalBlock(nn.Module):
